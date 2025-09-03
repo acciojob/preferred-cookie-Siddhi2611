@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-
 <html>
   <head>
     <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
-    <!-- the entire body must be written by student -->
-    <form>
+    <!-- Form for customizing font -->
+    <form id="customizer">
       <label for="fontsize">Font Size:</label>
       <input
         type="number"
@@ -18,11 +17,18 @@
         value="16"
       />
       <br />
+
       <label for="fontcolor">Font Color:</label>
       <input type="color" id="fontcolor" name="fontcolor" value="#000000" />
       <br />
+
       <input type="submit" value="Save" />
     </form>
+
+    <p>
+      This is a customizable text. Change the font size and color above,
+      click Save, and refresh the page to see your preferences remembered.
+    </p>
 
     <script type="text/javascript" src="./script.js"></script>
   </body>
